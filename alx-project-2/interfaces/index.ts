@@ -9,3 +9,16 @@ export interface ButtonProps {
   shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
   onClick?: () => void;
 }
+
+export interface PostProps {
+  title: string;
+  content: string;
+  userId: number;
+}
+
+export interface JsonPlaceholderPost {
+  id: number;
+  userId: number;
+  title: string;
+  body: string;
+}
